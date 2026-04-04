@@ -12,15 +12,37 @@
                         }
             .cot-giua{
                             background-color: white;
-                            width: 600px;           /* Độ rộng cho phần thông tin */
+                            width: 568px;           /* Độ rộng cho phần thông tin */
                             padding: 15px;
                             border: 2px solid black;
                             display: inline-block;  /* Nằm cạnh cột bên trái */
                             vertical-align: top;
                             margin-left: -5px;      /* Mẹo nhỏ để 2 cột khít sát nhau */
+                            height: 474px;
                         } 
             th,td{
                 border-style: none;
+            }
+            .cot-phai{
+                 background-color: rgb(221, 172, 206);   /*phông màu*/
+                            color: black;       /*màu chữ*/
+                            border: 2px solid black;    /*viền đen*/
+                            padding: 2px; /* tạo khoảng cách cho chữ ko sát viền*/
+                            display: inline-block; 
+                            height: 500px;
+                            margin-left: -5px;        /* Để khít sát vào cột giữa */
+                            vertical-align: top;      /* Giúp nó thẳng hàng từ trên cùng */
+                            width: 199.5px;
+                           
+            }
+            .chan-trang{
+                background-color: #ffffcc; /* Màu vàng nhạt giống mẫu */
+    width: 960px;             /* Độ rộng bằng với cái ảnh banner đầu trang */
+    border: 2px solid black;  /* Viền đen mỏng */
+    padding: 15px 0;          /* Khoảng cách trên dưới cho chữ thoáng */
+    text-align: center;       /* Lệnh quan trọng để chữ nhảy ra chính giữa */
+    clear: both;              /* Đảm bảo nó nằm dưới cùng, không bị các cột đè lên */
+
             }           
 
         </style>
@@ -76,7 +98,7 @@
                                 <ul style="list-style-type: circle;">
                                     <li>Nghiên cứu</li>
                                     <li>Hát hò</li>
-                                    <li>Đánh giày</li>
+                                    <li>Viết lách</li>
                                 </ul>
                                </td>
                                
@@ -90,21 +112,22 @@
                                 </td>
                             </table>
                             
-                        </div> <!--hết cột giữa (tiếp tục cột phải nha baiii)-->
-            
+                        </div> <!--hết cột giữa-->
+                            <div class="cot-phai"> <!--cột phải-->
+                            <h2>HOẠT ĐỘNG</h2>
+                            <ul style="list-style-type: disc;">
+                                <li>Tham quan viện bảo tàng </li>
+                                <li>Leo núi Hàm Lợn</li>
+                                <li>Tham gia Đội máu</li>
+                            </ul>
+                            </div><!--hết cột phải-->
                 </div>  
-
-
             </div> <!--trang giữa -->
-       
+            <div class="chan-trang">
+                <p>Bản quyền thuộc về Trần Như Quỳnh</p>
+                <p>E-mail:trannhuquynh2506@gmail.com &#128515; Phone: 037242625</p>
+            </div><!--hết chân trang-->
        </div> 
-
-
-
-
-
-
-
     </body>
 </html> 
 
